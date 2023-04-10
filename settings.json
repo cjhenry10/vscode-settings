@@ -1,0 +1,214 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.iconTheme": "material-icon-theme",
+  "window.titleBarStyle": "custom",
+  "workbench.colorCustomizations": {
+      "terminal.foreground": "#8b9bda",
+      "terminal.background": "#14151a",
+      // "terminal.background":"#131212",
+      // "terminal.foreground":"#dddad6",
+      "terminal.ansiBlack":"#1D2021",
+      "terminal.ansiBrightBlack":"#665C54",
+      "terminal.ansiBrightBlue":"#0D6678",
+      "terminal.ansiBrightCyan":"#8BA59B",
+      "terminal.ansiBrightGreen":"#95C085",
+      "terminal.ansiBrightMagenta":"#8F4673",
+      "terminal.ansiBrightRed":"#FB543F",
+      "terminal.ansiBrightWhite":"#FDF4C1",
+      "terminal.ansiBrightYellow":"#FAC03B",
+      "terminal.ansiBlue":"#00a1f9",
+      "terminal.ansiCyan":"#8BA59B",
+      "terminal.ansiGreen":"#237e02",
+      "terminal.ansiMagenta":"#8F4673",
+      "terminal.ansiRed":"#FB543F",
+      "terminal.ansiWhite":"#A89984",
+      "terminal.ansiYellow":"#FAC03B",
+      "statusBar.background" : "#1f2028",
+      "sideBar.background": "#1b1c23",
+      "list.hoverBackground": "#405f7d",
+      "list.activeSelectionBackground": "#2a3c77c5",
+      "list.inactiveFocusOutline": "#2a3c77",
+      // "list.inactiveFocusBackground": "#ff0000",
+      "panel.background": "#1f2028",
+      // "sideBarSectionHeader.background": "#2a3c77",
+      // "sideBar.dropBackground": "#ff0000",
+      "sideBar.foreground": "#D8DEE9",
+      "activityBar.activeBackground": "#405f7d",
+      "activityBar.background": "#1f2028",
+      "statusBar.noFolderBackground" : "#1c1f33",
+      "statusBar.debuggingBackground": "#2d3252",
+      "titleBar.activeBackground": "#14151ad3",
+      "editor.background": "#14151a",
+      "tab.inactiveBackground": "#1a1c2370",
+      "tab.activeBackground": "#272a34",
+      "editorGroupHeader.tabsBackground": "#16171d",
+      "editor.selectionBackground": "#405f7d",
+      "editor.selectionHighlightBackground": "#406f7d",
+      "editorBracketHighlight.foreground1": "#dfb976",
+      "editorBracketHighlight.foreground2": "#c172d9",
+      "editorBracketHighlight.foreground3": "#5caeef",
+      "editorBracketHighlight.foreground4": "#dfb976",
+      "editorBracketHighlight.foreground5": "#c172d9",
+      "editorBracketHighlight.foreground6": "#5caeef",
+      // "editorBracketHighlight.foreground4": "#4fb1bc",
+      // "editorBracketHighlight.foreground5": "#97c26c",
+      // "editorBracketHighlight.foreground6": "#abb2c0",
+      "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+  },
+  "editor.tokenColorCustomizations": {
+      "comments": "#616e88",
+      "functions": "#ebca89",
+      "keywords": "#b48ead",
+      "numbers": "#81A1C1",
+      "strings": "#d18771",
+      // "types": "#FF0000",
+      "variables": "#88C0D0",
+      "textMateRules": [
+          {
+              "scope": "support.type.property-name",
+              "settings": {
+                  "foreground": "#88C0D0"
+              }
+          },
+          {
+              "scope": "source.go",
+              "settings": {
+                  "foreground": "#D8DEE9"
+              }
+          },
+          {
+              "scope": "keyword.operator",
+              "settings": {
+                  "foreground": "#D8DEE9"
+              }
+          },
+          {
+              "scope": "entity.name.namespace",
+              "settings": {
+                  "foreground": "#8fbcbbe3"
+              }
+          },
+          {
+              "scope": "entity.name.type.class",
+              "settings": {
+                  "foreground": "#47b49e"
+              }
+          },
+      ]
+  },
+  "go.inferGopath": true,
+  "material-icon-theme.files.associations": {
+  
+  },
+  "workbench.editorAssociations": {
+      // "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "python.pythonPath": "H:\\Python39\\python.exe",
+  "explorer.confirmDragAndDrop": false,
+
+  "code-runner.executorMap": {
+      "html": "cd $dir && start chrome H:\\VSCode\\VSCprojects\\html_css\\$fileName",
+      "javascript": "node",
+      "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+      "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "php": "php",
+      "python": "python -u",
+      "perl": "perl",
+      "perl6": "perl6",
+      "ruby": "ruby",
+      "go": "go run",
+      "lua": "lua",
+      "groovy": "groovy",
+      "powershell": "powershell -ExecutionPolicy ByPass -File",
+      "bat": "cmd /c",
+      "shellscript": "bash",
+      "fsharp": "fsi",
+      "csharp": "scriptcs",
+      "vbscript": "cscript //Nologo",
+      "typescript": "ts-node",
+      "coffeescript": "coffee",
+      "scala": "scala",
+      "swift": "swift",
+      "julia": "julia",
+      "crystal": "crystal",
+      "ocaml": "ocaml",
+      "r": "Rscript",
+      "applescript": "osascript",
+      "clojure": "lein exec",
+      "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+      "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+      "racket": "racket",
+      "scheme": "csi -script",
+      "ahk": "autohotkey",
+      "autoit": "autoit3",
+      "dart": "dart",
+      "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+      "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+      "haskell": "runhaskell",
+      "nim": "nim compile --verbosity:0 --hints:off --run",
+      "lisp": "sbcl --script",
+      "kit": "kitc --run",
+      "v": "v run",
+      "sass": "sass --style expanded",
+      "scss": "scss --style expanded",
+      "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+      "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "editor.fontSize": 16,
+  "editor.maxTokenizationLineLength": 50000,
+  "tabnine.experimentalAutoImports": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "cSpell.ignoreWords": [
+      "blit",
+      "pygame",
+      "unpause"
+  ],
+  "cSpell.userWords": [
+      "Cprojects",
+      "consolas"
+  ],
+  "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+  },
+  "open-php-html-js-in-browser.selectedBrowser": "Chrome",
+  "php.validate.executablePath": "H:/xampp/php/php.exe",
+  "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+          "path": [
+              "${env:windir}\\Sysnative\\cmd.exe",
+              "${env:windir}\\System32\\cmd.exe"
+          ],
+          "args": [],
+          "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+          "source": "Git Bash"
+      },
+      "Bash": {
+          "path": "C:\\WINDOWS\\System32\\cmd.exe",
+          "args": []
+      }
+  },
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "workbench.startupEditor": "none",
+  "[python]": {
+      "editor.defaultFormatter": "ms-python.python"
+  },
+  "material-icon-theme.folders.color": "#c6c4d4",
+  "javascript.preferences.quoteStyle": "single",
+  "editor.tabSize": 2,
+}
